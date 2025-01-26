@@ -20,9 +20,13 @@ const StepOne = ({ formValue, setFormValue, handleNextStep }) => {
 
   return (
     <div className="max-w-md mx-auto bg-white p-8 rounded-xl shadow-lg">
-      <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">
-        Step 1: Basic Information
+      <img 
+      src="/Zurag.png" 
+      />
+      <h2 className="text-2xl font-bold mb-6 text-gray-800">
+      Join Us! 😎
       </h2>
+      <p className="text-gray-500">Please provide all current information accurately.</p>
       <div className="space-y-6">
         <div>
           <input

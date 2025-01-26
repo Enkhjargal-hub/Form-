@@ -32,7 +32,13 @@ const StepThree = ({ formValue, setFormValue, handleBackStep, handleSubmit }) =>
   return (
     <div className="h-screen flex justify-center items-center bg-slate-100">
       <div className="border rounded w-[400px] p-6 bg-white shadow-md">
-        <h2 className="font-bold text-lg text-center mb-4">Step 3: Date & Upload</h2>
+      <img 
+      src="/Zurag.png" 
+      />
+      <h2 className="text-2xl font-bold mb-6 text-gray-800">
+      Join Us! 😎
+      </h2>
+      <p className="text-gray-500">Please provide all current information accurately.</p>
 
         {/* Огноо сонгох */}
         <div className="mb-4">
