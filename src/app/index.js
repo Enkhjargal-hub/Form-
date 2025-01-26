@@ -1,4 +1,9 @@
+import MultiStepForm from "@/components/MultiStepForm";
+
 export default function Home() {
-    return <h1>Welcome to your Multi-Step Form App!</h1>;
-  }
-  
+  return (
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <MultiStepForm />
+    </div>
+  );
+}
